@@ -1,5 +1,6 @@
 ---
 applications:
-- name: GetStartedGo
+- name: skyvillage-backend
   random-route: true
-  memory: 128M
+  memory: 64M
+  buildpack: go_buildpack
